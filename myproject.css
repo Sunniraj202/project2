@@ -1,0 +1,396 @@
+body {
+    /* background-image: url(./tm-catalyst-bg.jpg); */
+    background-image: url(backgroundimg.jpg);
+    padding: 50px;
+    
+}
+
+.containers {
+    display: flex;
+}
+
+.container1 {
+    width: 50%;
+    /* height: 2200px; */
+    background-color: rgb(21, 20, 20, 0.7);
+
+}
+.container2 {
+    width: 50%;
+    /* height: 2200px; */
+    background-color: rgba(239, 227, 227, 0.777);
+    z-index: -1;
+}
+
+
+#img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+#catalyst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 80px;
+}
+
+#para1 {
+    padding: 30px;
+    /* margin-left: 60px;
+    margin-top: 10px; */
+    font-size: 20px;
+}
+
+#first {
+    display: flex;
+
+
+}
+
+#second {
+    display: flex;
+}
+
+.images {
+    margin-top: 200px;
+    margin-left: 30px;
+
+}
+
+#img2 {
+    border-right: 20px solid grey;
+    border-bottom: 20px solid grey;
+    height: 180px;
+    width: 180px;
+}
+
+#img3 {
+    border-right: 20px solid rgb(212, 66, 115);
+    border-top: 20px solid rgb(213, 56, 108);
+    height: 180px;
+    width: 180px;
+
+}
+
+#img4 {
+    border-left: 20px solid rgb(212, 66, 115);
+    border-bottom: 20px solid rgb(212, 66, 115);
+    height: 180px;
+    width: 180px;
+
+}
+
+#img5 {
+    border-left: 20px solid grey;
+    border-top: 20px solid grey;
+    height: 180px;
+    width: 180px;
+}
+
+#para2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 320px;
+    font-size: 28px;
+}
+
+#para3 {
+    padding: 20px;
+    margin-top: 0px;
+    font-size: 22px;
+}
+#readmore {
+    width: 90%;
+    display: flex;
+    justify-content: end;   
+}
+
+#morbi {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    z-index: 1;
+    font-size: 28px;
+    color: white;
+    width: 180%;
+    height: 200px;
+    background-color: rgb(173, 55, 94);
+
+}
+
+#para4 {
+    font-size: 28px;
+}
+
+#para5 {
+    font-size: 22px;
+}
+.main_para4{
+    padding: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.html {
+    /* margin-left: 40px; */
+    margin-top: 710px;
+}
+.last_form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+
+    height: 300px;
+
+}
+#textarea{
+    height: 150px;
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+#submit_butt1 {
+    color: white;
+    background-color: rgb(212, 36, 95);
+    width: 100px;
+    height: 30px; 
+}
+.submit_butt111{
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.container3 {
+    margin-left: -1px;
+    font-size: 28px;
+    color: white;
+    width: 171%;
+    position: relative;
+    bottom: 130px;
+    left: 50px;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding: 40px 20px 20px 20px ;
+}
+
+#icon1 {
+    font-size: 20px;
+    background-color: white;
+    width: 230px;
+    height: 400px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.icon1_img{
+    height: 80px;
+    width: 80px;
+}
+
+#icon2 {
+    font-size: 20px;
+    background-color: white;
+    width: 230px;
+    height: 400px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon3 {
+    font-size: 20px;
+    background-color: white;
+    width: 230px;
+    height: 400px;  
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#readmore_butt{
+    color: white; 
+    background-color: rgb(208, 32, 91); 
+    padding: 10px 30px 10px 30px;
+    border: none;
+}
+@media screen and (min-width:320px) and (max-width:800px) {
+    body{
+        padding: 20px;
+    }
+    #catalyst {
+        font-size: 12px;
+    }
+    #welcome {
+        font-size: 16px; 
+    }
+    #para1 {
+        padding: 10px;
+        font-size: 10px;
+       
+    }
+    .container3 {
+       
+        /* width: 100%; */
+        position: relative;
+        left:10px;
+        padding: 10px 10px 10px 10px;
+        
+        
+    }
+    .icon1_img{
+        height: 40px;
+        width: 40px;
+    }
+    #icon1{
+        
+        font-size: 7px;
+        width: 100px;
+        height: 150px;
+    }
+    #icon2{
+        
+        font-size: 7px;
+        width: 100px;
+        height: 150px;
+    }
+    #icon3{
+        
+        font-size: 7px;
+        width: 100px;
+        height: 150px;
+    }
+    #morbi {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left: 10px;
+        z-index: 1;
+        font-size: 10px;
+        color: white;
+        /* width: 160%; */
+        height: 170px;
+        background-color: rgb(173, 55, 94);
+    
+    }
+    #para2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 320px;
+        font-size: 28px;
+    }
+    
+    #para3 {
+        padding: 7px;
+        margin-top: 0px;
+        font-size: 8px;
+    }
+    #para4 {
+        font-size: 10px;
+    }
+    #para5 {
+        font-size: 10px;
+    }
+    .images{
+        margin-top: 40px;
+    }
+    #img2 {
+        border-right: 10px solid grey;
+        border-bottom: 10px solid grey;
+        height: 100px;
+        width: 100px;
+    }
+    
+    #img3 {
+        border-right: 10px solid rgb(212, 66, 115);
+        border-top: 10px solid rgb(213, 56, 108);
+        height: 100px;
+        width: 100px;
+    
+    }
+    
+    #img4 {
+        border-left: 10px solid rgb(212, 66, 115);
+        border-bottom: 10px solid rgb(212, 66, 115);
+        height: 100px;
+        width: 100px;
+    }
+    #img5 {
+        border-left: 10px solid grey;
+        border-top: 10px solid grey;
+        height: 100px;
+        width: 100px;
+    }
+    #para2{
+        margin-top: 120px;
+        font-size: 12px;
+    }
+    #readmore_butt{
+        color: white; 
+        background-color: rgb(208, 32, 91); 
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+    }
+    .html{
+        margin-top:350px;
+    }
+    .last_form{
+        width: fit-content;
+        height: fit-content;
+    }
+    input{
+        height: 15px;
+        font-size: 10px;
+    }
+    #textarea{
+        height: 100px;
+    }
+    .submit_butt111{
+        height: fit-content;
+    }
+    #submit_butt1{
+        height: fit-content;
+        width: fit-content;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border: none;
+    }
+    .main_para4{
+        padding: 5px;
+        margin-top: 0px;
+    }
+    #footer{
+        font-size: 8px;
+    }  
+
+}
